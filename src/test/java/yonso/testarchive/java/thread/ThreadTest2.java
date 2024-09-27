@@ -1,4 +1,4 @@
-package yonso.testarchive.java;
+package yonso.testarchive.java.thread;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

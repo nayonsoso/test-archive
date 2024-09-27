@@ -1,4 +1,4 @@
-package yonso.testarchive.java;
+package yonso.testarchive.java.thread;
 
 import static org.assertj.core.api.Assertions.assertThatCode;
 
