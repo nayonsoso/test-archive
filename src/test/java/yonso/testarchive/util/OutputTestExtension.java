@@ -1,4 +1,4 @@
-package yonso.testarchive;
+package yonso.testarchive.util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
