@@ -3,7 +3,8 @@ package yonso.testarchive.java.exception.checked;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-class HighLayerExceptionTest {
+@DisplayName("Checked Exception 의 전파에 대해 알아보자")
+class ExceptionPropagationTest {
 
     @Test
     @DisplayName("cause 를 사용한 CheckedException 의 스택 트레이스를 확인해보자")
