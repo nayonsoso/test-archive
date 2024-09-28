@@ -2,7 +2,11 @@ package yonso.testarchive.java.exception.layered_structure;
 
 class LowLayerClass {
 
-    void process() {
-        throw new RuntimeException("LowLayerClass에서 발생한 예외");
+    void processUncheckedException() {
+        throw new RuntimeException("UncheckedException in LowLayerClass");
+    }
+
+    void processCheckedException() throws Exception {
+        throw new Exception("CheckedException in LowLayerClass");
     }
 }

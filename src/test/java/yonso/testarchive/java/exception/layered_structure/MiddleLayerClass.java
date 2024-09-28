@@ -4,7 +4,11 @@ class MiddleLayerClass {
 
     private final LowLayerClass lowLayerClass = new LowLayerClass();
 
-    void process() {
-        lowLayerClass.process();
+    void processUncheckedException() {
+        lowLayerClass.processUncheckedException();
+    }
+
+    void processCheckedException() throws Exception {
+        lowLayerClass.processCheckedException();
     }
 }
