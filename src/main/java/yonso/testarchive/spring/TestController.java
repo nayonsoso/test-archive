@@ -10,8 +10,8 @@ public class TestController {
 
     private final TestService testService;
 
-    @GetMapping("/")
-    public void baseMethod() {
-        testService.baseMethod();
+    @GetMapping("/exception")
+    public void throwException() {
+        testService.throwException();
     }
 }

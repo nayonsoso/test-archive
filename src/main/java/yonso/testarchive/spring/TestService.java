@@ -9,7 +9,7 @@ public class TestService {
 
     private final TestValidator testValidator;
 
-    public void baseMethod() {
-        testValidator.baseMethod();
+    public void throwException() {
+        testValidator.throwException();
     }
 }
