@@ -14,4 +14,9 @@ public class TestController {
     public void throwException() {
         testService.throwException();
     }
+
+    @GetMapping("/basic-controller-exception")
+    public void throwBasicControllerException() {
+        testService.throwException();
+    }
 }
