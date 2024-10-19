@@ -1,6 +1,6 @@
 package yonso.testarchive.java.proxy.pattern;
 
-public class Traget implements CommonInterface {
+public class Target implements CommonInterface {
 
     @Override
     public void function() {

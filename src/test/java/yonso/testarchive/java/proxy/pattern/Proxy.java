@@ -2,16 +2,16 @@ package yonso.testarchive.java.proxy.pattern;
 
 public class Proxy implements CommonInterface {
 
-    private final Traget traget;
+    private final Target target;
 
     public Proxy() {
-        this.traget = new Traget();
+        this.target = new Target();
     }
 
     @Override
     public void function() {
         System.out.println("Proxy.function() before Target.function()");
-        traget.function();
+        target.function();
         System.out.println("Proxy.function() after Target.function()");
     }
 }
