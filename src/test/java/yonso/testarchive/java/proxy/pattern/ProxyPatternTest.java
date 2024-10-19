@@ -14,9 +14,8 @@ class ProxyPatternTest {
     @DisplayName("프록시 패턴을 사용한 경우, 결과가 어떻게 나오는지 확인해보자.")
     @Test
     void test(OutputTestExtension outputTestExtension) {
-        Client client = new Client();
-
-        client.run();
+        CommonInterface proxy = new Proxy();
+        proxy.function();
 
         String output = outputTestExtension.getAndPrintOutput();
         String expected = """
