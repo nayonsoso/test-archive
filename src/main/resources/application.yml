@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: test-archive
+
+  jpa:
+    show-sql: true
