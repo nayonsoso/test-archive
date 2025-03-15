@@ -14,6 +14,7 @@ public class TypeCastingTest {
     }
 
     void castNull(Object obj) {
+
         String str = (String) obj;
         System.out.println(str);
     }
