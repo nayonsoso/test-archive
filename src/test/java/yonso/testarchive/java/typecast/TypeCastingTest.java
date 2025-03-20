@@ -13,7 +13,6 @@ public class TypeCastingTest {
         assertThatCode(() -> castNull(null)).doesNotThrowAnyException();
     }
 
-
     void castNull(Object obj) {
         String str = (String) obj;
         System.out.println(str);
