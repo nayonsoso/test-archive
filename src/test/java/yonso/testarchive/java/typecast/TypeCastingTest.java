@@ -11,6 +11,7 @@ public class TypeCastingTest {
     @DisplayName("null 을 타입캐스팅하면 어떻게 되는가?")
     void test() {
         assertThatCode(() -> castNull(null)).doesNotThrowAnyException();
+
     }
 
     void castNull(Object obj) {
